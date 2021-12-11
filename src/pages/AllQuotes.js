@@ -1,9 +1,9 @@
 import React, { useEffect } from 'react';
-import QuoteList from '../../components/quotes/QuoteList';
-import NoQuotesFound from '../../components/quotes/NoQuotesFound';
-import useHttp from '../hooks/use-http';
-import { getAllQuotes } from '../lib/api';
-import LoadingSpinner from '../UI/LoadingSpinner';
+import QuoteList from '../components/quotes/QuoteList';
+import NoQuotesFound from '../components/quotes/NoQuotesFound';
+import useHttp from '../components/hooks/use-http';
+import { getAllQuotes } from '../components/lib/api';
+import LoadingSpinner from '../components/UI/LoadingSpinner';
 
 const AllQuotes = () => {
   const {
